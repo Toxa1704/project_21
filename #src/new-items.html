@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Items</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content page-content">
+            @@include('_header.html')
+            <section class="search new-items-search" style="background-image: url(img/search-bg.jpg)"><!--  -->
+                <div class="container">
+                    <div class="search__inner">
+
+                        <div class="search__inner-text">
+                            Premium WordPress Themes, Web Templates and Many More ...
+                        </div>
+                        <div class="search__inner-form">
+                            <!--формаб required - обов'язкова для заповнення, submit - тідьки ця кнопка відправляє данні форми-->
+                            <form action="">
+                                <input type="text" placeholder="Search Your Keywords . . ." required>
+                                <button type="submit">
+                                    <img src="img/icons/search.png" alt="">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs__inner">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="#">Home</a></li>
+                            <li><span>Product Page</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <cection class="product-page">
+                <div class="container">
+                    <div class="product-page__inner">
+
+                        <aside class="product-page__aside">
+                            <div class="category aside__item">
+                                <div class="aside__title">
+                                    Categories
+                                </div>
+                                <ul class="catrgory__list">
+                                    <li><a href="#">WordPress</a><span>(150)</span></li>
+                                    <li><a href="#">Joomla</a><span>(100)</span></li>
+                                    <li><a href="#">PSD</a><span>(50)</span></li>
+                                    <li><a href="#">Plugins</a><span>(60)</span></li>
+                                    <li><a href="#">Components</a><span>(40)</span></li>
+                                </ul>
+                            </div>
+                            <div class="price-range aside__item">
+                                <div class="aside__title">
+                                    Price Range
+                                </div>
+                                <form>
+                                    <input type="text" class="js-range-slider" name="my_range" value="" />
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                            <div class="top-sellers aside__item">
+                                <div class="aside__title">
+                                    Top 10 Sellers
+                                </div>
+                                <div class="aside__product-item">
+                                    <div class="product__item">
+                                        <a class="product__item-img"
+                                            style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                        </a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a href="#" class="product__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="product__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                $20
+                                            </div>
+                                        </div>
+                                        <div class="product__item-info">
+                                            <a href="#" class="product__item-author">
+                                                <div class="avatar"
+                                                    style="background-image: url(img/content/user.jpg);">
+                                                </div>
+                                                <span>PsdBosS</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__item">
+                                        <a class="product__item-img"
+                                            style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                        </a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a href="#" class="product__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="product__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                $20
+                                            </div>
+                                        </div>
+                                        <div class="product__item-info">
+                                            <a href="#" class="product__item-author">
+                                                <div class="avatar"
+                                                    style="background-image: url(img/content/user.jpg);">
+                                                </div>
+                                                <span>PsdBosS</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__item">
+                                        <a class="product__item-img"
+                                            style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                        </a>
+                                        <div class="product__item-content">
+                                            <div class="product__item-name">
+                                                <a href="#" class="product__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="product__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="product__item-price">
+                                                $20
+                                            </div>
+                                        </div>
+                                        <div class="product__item-info">
+                                            <a href="#" class="product__item-author">
+                                                <div class="avatar"
+                                                    style="background-image: url(img/content/user.jpg);">
+                                                </div>
+                                                <span>PsdBosS</span>
+                                            </a>
+                                            <div class="product__item-star">
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="top-selers-link">View All</a>
+                            </div>
+
+                        </aside>
+
+                        <div class="product-page__content">
+
+                            <div class="product-page__filter">
+                                <div class="product-page__filter-sort">
+                                    <button class="icon-sort-amount-desc">
+                                        Sort by: New Items
+                                    </button>
+                                    <button class="icon-unsorted"></button>
+                                </div>
+                                <div>
+                                    <button class="icon-th-large active"></button>
+                                    <button class="icon-th-list"></button>
+                                </div>
+                            </div>
+                            <div class="product-page__items">
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry.
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item cards-sort">
+                                    <a class="product__item-img"
+                                        style="background-image: url(img/content/product__item_2.jpg);" href="#">
+                                    </a>
+                                    <div class="product__item-content">
+                                        <div class="product__item-name">
+                                            <a href="#" class="product__item-title">
+                                                The Post Grid Pro
+                                            </a>
+                                            <a href="#" class="product__item-category">
+                                                WordPress Plugin
+                                            </a>
+                                            <div class="product__item-text">
+                                                Pimply dummy text of the printing and typesetting industry. 
+                                            </div>
+                                        </div>
+                                        <div class="product__item-price">
+                                            $20
+                                            <span>Sales (14)</span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item-info">
+                                        <a href="#" class="product__item-author">
+                                            <div class="avatar" style="background-image: url(img/content/user.jpg);">
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        </a>
+                                        <div class="product__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                        <div class="product__item-list">
+                                            <a href="#" class="icon-coment-o">(<span>10</span>)</a>
+                                            <div class="icon-heart-0">(<span>20</span>)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pagination">
+                                <ul class="pagination__list">
+                                    <li><span class="active">1</span></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </cection>
+        </div>
+        @@include('_footer.html')
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
